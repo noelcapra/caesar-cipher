@@ -1,19 +1,19 @@
-How to Run
+# Caesar Cipher Python Program
 
-Ensure you have Python installed.
+This guide explains how to run a simple Caesar Cipher program in Python and the concepts demonstrated in the code.
 
-Download the Python file (e.g., caesar_cipher.py).
+---
 
-Run the program from the terminal using the command:
+## How to Run
 
-python caesar_cipher.py
+1. Ensure you have Python installed.
+2. Download the Python file (e.g., `caesar_cipher.py`).
+3. Run the program from the terminal using the command:
 
+   ```bash
+   python caesar_cipher.py
 
-The program will encrypt the sample text 'freeCodeCamp' with a shift of 3 and print the result.
-
-You can also use the encrypt(text, shift) and decrypt(text, shift) functions in your own code.
-
-What I Learned / Concepts Demonstrated
+## What I Learned / Concepts Demonstrated
 
 Function definition and parameters – Creating reusable functions (caesar, encrypt, decrypt) with default arguments (encrypt=True).
 
@@ -26,5 +26,3 @@ Handling uppercase and lowercase letters – Mapping both lower and upper case l
 Conditional logic – Adjusting the shift for encryption vs decryption using if not encrypt:.
 
 Modular design – Separating encryption and decryption into dedicated functions for clarity and reuse.
-
-Simple encryption logic – Understanding the Caesar Cipher and how to shift letters in the alphabet.
